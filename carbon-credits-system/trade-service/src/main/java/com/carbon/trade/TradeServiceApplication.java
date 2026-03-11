@@ -10,6 +10,7 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 
 @SpringBootApplication
 @EnableFeignClients
+@EnableDiscoveryClient
 public class TradeServiceApplication {
 
     public static void main(String[] args) {
